@@ -1,0 +1,147 @@
+@charset "utf8";
+
+body{
+    /*background-color: rgb(75, 75, 75);*/
+    /*color: rgb(125, 125, 125);*/
+
+    background-color: rgba(13, 211, 178, 0.836);
+}
+
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    text-transform: uppercase;
+    text-align: center;
+    font: normal 18pt Arial;
+}
+
+div#pesquisa{
+    display: none;
+    background-color: rgb(75, 75, 75);
+    border: 3px solid rgb(25, 25, 25);
+    position: absolute;
+    padding: 15px;
+    margin: 0px;
+}
+
+div#pesquisa h2{
+    font: Normal 900 20pt Arial;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+div#pesquisa p{
+    font: Normal 17pt Arial;
+    text-transform: uppercase;
+    margin: 8px 0px;
+}
+
+div#pesquisa input{
+    font: Normal 15pt Arial;
+    width: 100px;
+}
+
+div#pesquisa input#buscar{
+    display: inline;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(5, 133, 69);
+    border: 3px solid black;
+    border-radius: 7px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+section table{
+    margin: 0px auto;
+    border: solid 2px rgb(5, 138, 204);
+    border-top: 0px;
+    border-spacing: 0px;
+    font: normal 14pt Arial;
+}
+
+section table caption{ 
+    border: solid 4px  rgb(5, 138, 204);
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: 0px;
+    padding: 15px;
+    padding-bottom: 5px;
+    position: relative;
+
+    background-color: #02b9ef;
+
+}
+
+table#calendario caption#cabecalho h1{
+    font: normal 700 20pt Arial;
+    display: inline;
+    cursor: pointer; /*mudar o cursor do mouse*/
+}
+
+table#calendario caption#cabecalho input{
+    position: absolute;
+    font: normal 700 25pt Arial;
+    background: transparent;
+    border: none;
+    border-radius: 12px;
+    padding: 0px 10px;
+    color: rgb(170, 170, 170);
+    cursor: pointer; /*mudar o cursor do mouse*/
+}
+
+table#calendario caption#cabecalho input#voltar{
+    left: 15px;
+}
+
+table#calendario caption#cabecalho input#avancar{
+    right: 15px;
+}
+
+section table thead th{
+    padding: 15px;
+    border-bottom: solid 2px rgb(5, 138, 204);
+
+    background-color: #02b9ef;
+}
+
+th#dom{
+    border-left: 2px solid rgb(5, 138, 204);
+    color: rgb(199, 41, 13);
+}
+
+th#sab{
+    border-right: 2px solid rgb(5, 138, 204);
+}
+
+table#calendario tbody#corpo td{
+    padding: 15px;
+    text-align: center;
+    border: solid 2px rgb(5, 138, 204);
+    font: normal 14pt Arial; 
+    
+    background-color:#dadce0;
+}
+
+
+/* Programar*/
+div#agenda_dia{
+    display: block;
+    /*position: absolute;*/
+    height: 100px;
+    width: 100px;
+    background-color: rgb(100, 0, 0);
+}
+
+footer{
+    text-align: center;
+    font: italic 12pt cursive;
+}
+
+div#contato img{
+    margin: 3px;
+}

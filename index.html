@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body onload="atualizar()">
+    <header>
+        <h1>Calendário WEB</h1>
+    </header> 
+    <section>
+        <div id="pesquisa">
+            <h2>Pesquisar</h2>
+            <p>Ano: <input type="number" id="ano"> </p>
+            <p>Mês: <input type="number" id="mes" min="1" max="12"> </p>
+            <input type="button" id="buscar" value="BUSCAR" onclick="p_mes()">
+        </div>
+
+        <table id="calendario">
+
+            <caption id="cabecalho">                
+                <input type="button" id="voltar" value="<" onclick="v_mes()">
+                <h1 onclick="habilitar_pesquisa()">Outubro de 2020</h1>
+                <input type="button" id="avancar" value=">" onclick="a_mes()">
+                
+            </caption>
+
+            <thead>
+                <th id="dom">D</th>
+                <th>S</th>
+                <th>T</th>
+                <th>Q</th>
+                <th>Q</th>
+                <th>S</th>
+                <th id="sab">S</th>
+            </thead>
+
+            <tbody id="corpo" ondrop="atualizar()">
+
+            </tbody>
+        </table>
+
+    </section>
+    <footer>
+        <p>por Anderson Correia de Souza</p>
+        <div id="contato">
+            <a href="https://www.linkedin.com/in/anderson-correia/" target="_black"><img src="Imagens/LinkedIn.png" alt="Incone do LinkedIn" title="LinkedIn"></a>
+            <a href="https://github.com/Anderson815" target="_black"><img src="Imagens/GitHub.png" alt="Incone do GitHub" title="GitHub"></a>
+        </div>
+    </footer>
+    <script src="interacao.js">
+    </script>
+</body>
+</html>
