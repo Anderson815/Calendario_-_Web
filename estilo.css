@@ -4,7 +4,9 @@ body{
     /*background-color: rgb(75, 75, 75);*/
     /*color: rgb(125, 125, 125);*/
 
-    background-color: rgba(13, 211, 178, 0.836);
+    background-color: #42454b;
+    background-color: #2288db;
+ 
 }
 
 section{
@@ -22,15 +24,17 @@ header{
 
 div#pesquisa{
     display: none;
-    background-color: rgb(75, 75, 75);
-    border: 3px solid rgb(25, 25, 25);
+    background-color:  rgb(240, 240, 240); 
+    /*border: 3px solid rgb(25, 25, 25);*/
+    border-radius: 15px;
     position: absolute;
-    padding: 15px;
+    padding: 25px;
     margin: 0px;
+    box-shadow: 0px 0px 5px rgb(92, 91, 91);
 }
 
 div#pesquisa h2{
-    font: Normal 900 20pt Arial;
+    font: Normal 900 20pt cursive;
     text-transform: uppercase;
     margin: 0px;
 }
@@ -50,35 +54,33 @@ div#pesquisa input#buscar{
     display: inline;
     width: 100%;
     text-align: center;
-    background-color: rgb(5, 133, 69);
+    background-color:  rgba(13, 211, 178, 0.836);
+    color: white;
     border: 3px solid black;
     border-radius: 7px;
-    padding: 5px;
+    padding: 8px;
     margin-top: 5px;
 }
 
 section table{
     margin: 0px auto;
-    border: solid 2px rgb(5, 138, 204);
-    border-top: 0px;
     border-spacing: 0px;
+    border-radius: 0px 0px 25px 25px;
     font: normal 14pt Arial;
+    padding: 15px;
+    background-color: #dadce0; 
 }
 
 section table caption{ 
-    border: solid 4px  rgb(5, 138, 204);
-    border-radius: 15px 15px 0px 0px;
-    border-bottom: 0px;
+    color: #dadce0; 
+    border-radius: 25px 25px 0px 0px;
     padding: 15px;
-    padding-bottom: 5px;
     position: relative;
-
-    background-color: #02b9ef;
-
+    background-color: rgba(13, 211, 178, 0.836);
 }
 
 table#calendario caption#cabecalho h1{
-    font: normal 700 20pt Arial;
+    font: normal 700 20pt cursive;
     display: inline;
     cursor: pointer; /*mudar o cursor do mouse*/
 }
@@ -88,9 +90,8 @@ table#calendario caption#cabecalho input{
     font: normal 700 25pt Arial;
     background: transparent;
     border: none;
-    border-radius: 12px;
     padding: 0px 10px;
-    color: rgb(170, 170, 170);
+    color:#dadce0;
     cursor: pointer; /*mudar o cursor do mouse*/
 }
 
@@ -104,27 +105,16 @@ table#calendario caption#cabecalho input#avancar{
 
 section table thead th{
     padding: 15px;
-    border-bottom: solid 2px rgb(5, 138, 204);
-
-    background-color: #02b9ef;
 }
 
-th#dom{
-    border-left: 2px solid rgb(5, 138, 204);
-    color: rgb(199, 41, 13);
-}
-
-th#sab{
-    border-right: 2px solid rgb(5, 138, 204);
+.dom{
+    color: rgb(8, 187, 157);
 }
 
 table#calendario tbody#corpo td{
     padding: 15px;
     text-align: center;
-    border: solid 2px rgb(5, 138, 204);
     font: normal 14pt Arial; 
-    
-    background-color:#dadce0;
 }
 
 

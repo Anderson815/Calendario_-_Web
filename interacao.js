@@ -4,8 +4,6 @@
 
 //window.document.getElementById('voltar').value = `\u{2B05}`;
 
-
-
 var total_dias = 0;
 var primeiro_dia_semana = 0;
 var mes = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho',
@@ -40,10 +38,14 @@ function atualizar(){
         let linha = window.document.createElement('tr');
         for(let c_contador = 0; c_contador < 7; c_contador++){
             let coluna = window.document.createElement('td');
+            if(c_contador == 0) coluna.setAttribute('class', 'dom');
 
             if((l_contador == 1 && c_contador >= data_nav.getDay()) || (l_contador > 1 && dia <= total_de_dias))
             {
                 coluna.innerText = `${dia}`;
+                if(dia == data_atu.getDate() && data_atu.getMonth() == data_nav.getMonth() && data_atu.getFullYear() == data_nav.getFullYear()){
+                    coluna.style = 'background-color: #02b9ef; color: white; border-radius: 25px';
+                }
                 dia++;
             }  
             linha.appendChild(coluna);
