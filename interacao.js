@@ -1,9 +1,3 @@
-//window.document.getElementById('avancar').value = `\u{27A1}`;
-//window.document.getElementById('avancar').style.fontWeight = `900`;
-//window.document.getElementById('avancar').style.color = `rgb(250, 0, 0)`;
-
-//window.document.getElementById('voltar').value = `\u{2B05}`;
-
 var total_dias = 0;
 var primeiro_dia_semana = 0;
 var mes = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho',
@@ -82,9 +76,6 @@ function p_mes(){
     calendario.style = 'opacity: 1;';
 
     atualizar();
-    
-    console.log(`o mês é ${data_nav.getMonth()} e o ano é ${data_nav.getFullYear()}`);
-    
     enable_botoes_calendario(true);
 }
 
@@ -104,7 +95,6 @@ function habilitar_pesquisa(){
     window.document.getElementById('mes').value = Number.parseInt(data_nav.getMonth() + 1);
     pesquisa.style = 'display: block; z-index: 10;';
     calendario.style = 'opacity: .5';
-    //calendario.hidden = true; 
     enable_botoes_calendario(false);
 }
 
@@ -117,11 +107,3 @@ function enable_botoes_calendario(desabilitar){
         window.document.querySelector('section caption#cabecalho #avancar').disabled = true;
     }
 }
-
-console.log(`Data atual: ${data_atu.getDate()}/${data_atu.getMonth()}/${data_atu.getFullYear()}`);
-console.log(`Dia semana é ${data_atu.getDay()}`);
-
-console.log(``);
-console.log(`Data de navegação: ${data_nav.getDate()}/${data_nav.getMonth()}/${data_nav.getFullYear()}`)
-console.log(`Dia semana é ${data_nav.getDay()}`);
-

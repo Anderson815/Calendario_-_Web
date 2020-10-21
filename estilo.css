@@ -1,12 +1,7 @@
 @charset "utf8";
 
 body{
-    /*background-color: rgb(75, 75, 75);*/
-    /*color: rgb(125, 125, 125);*/
-
-    background-color: #42454b;
     background-color: #2288db;
- 
 }
 
 section{
@@ -25,7 +20,6 @@ header{
 div#pesquisa{
     display: none;
     background-color:  rgb(240, 240, 240); 
-    /*border: 3px solid rgb(25, 25, 25);*/
     border-radius: 15px;
     position: absolute;
     padding: 25px;
@@ -115,16 +109,6 @@ table#calendario tbody#corpo td{
     padding: 15px;
     text-align: center;
     font: normal 14pt Arial; 
-}
-
-
-/* Programar*/
-div#agenda_dia{
-    display: block;
-    /*position: absolute;*/
-    height: 100px;
-    width: 100px;
-    background-color: rgb(100, 0, 0);
 }
 
 footer{
