@@ -26,8 +26,8 @@ Esse foi um upgrade do projeto <a href="https://github.com/Anderson815/Calendari
 
 <h2>:checkered_flag: Para abrir a página</h2>
   <ol>
-    <li>Fazer o clone desse repositório na sua máquina, para isso, no terminal do git, execute este comando: git clone https://github.com/Anderson815/Calendario_-_Web.git calendario.</li>
-    <li>abra a pasta calendario e abra o arquivo index.html (de preferência utilize o Google Chrome).</li>
+    <li>Fazer o clone desse repositório na sua máquina, para isso, no terminal do git, execute este comando: git clone https://github.com/Anderson815/Calendario_-_Web.git calendário.</li>
+    <li>abra a pasta calendário, que foi gerada pelo comando anterior, e em seguida abra o arquivo index.html (de preferência utilize o Google Chrome).</li>
   </ol>
 
 <h2>:pray: Ajuda</h2>
