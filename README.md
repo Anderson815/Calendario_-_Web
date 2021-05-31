@@ -27,17 +27,17 @@ Esse foi um upgrade do projeto <a href="https://github.com/Anderson815/Calendari
 <img src="Midia/calendario.gif">
 
 <h2 id="Executar">🚀 Como executar o projeto</h2>
-<p>Para testar o projeto basta você <a href="https://blogpessoalanderson.herokuapp.com/swagger-ui.html#/">clicar aqui</a>. 
+<p>Para testar o projeto basta você <a href="https://anderson815.github.io/Calendario_-_Web/">clicar aqui</a>. 
 
 <h2 id="Tecnologias">🛠 Tecnologias</h2>
 
-<a href="https://www.java.com/pt-BR/"><img src="Midia/HTML.png" alt="HTML" title="HTML" height="62px" width="62px"></a>
-<a href="https://start.spring.io/"><img src="Midia/CSS.png" alt="CSS" title="CSS" height="62px" width="62px"></a>
-<a href="https://maven.apache.org/"><img src="Midia/JS.png" alt="JS" title="JS" height="62px" width="62px"></a>
+<a href="https://www.w3schools.com/html/default.asp"><img src="Midia/HTML.png" alt="HTML" title="HTML" height="62px" width="62px"></a>
+<a href="https://www.w3schools.com/css/default.asp"><img src="Midia/CSS.png" alt="CSS" title="CSS" height="62px" width="62px"></a>
+<a href="https://www.w3schools.com/js/default.asp"><img src="Midia/JS.png" alt="JS" title="JS" height="62px" width="62px"></a>
 
 <h2 id="Autor">🦸 Autor</h2>
 
-<img src="Midias_Readme/Anderson.png" alt="Foto do Anderson">
+<img src="Midia/Anderson.png" alt="Foto do Anderson">
 <p>
 Anderson Correia é um entusiasta e apaixonados por programação, focado em resolver problemas através de códigos.
 </p>
@@ -45,4 +45,4 @@ Anderson Correia é um entusiasta e apaixonados por programação, focado em res
 
 <h2 id="Licenca">📝 Licença</h2>
 
-<p>Este projeto esta sob a licença <a href="https://github.com/Anderson815/Blog_Pessoal_-_API_REST/blob/3a908c332bf467de5839252cde0c9d84eec499f3/LICENSE">MIT</a>.</p>
+<p>Este projeto esta sob a licença <a href="https://github.com/Anderson815/Calendario_-_Web/blob/368d407bbec4330dee5faecb281db58e61a4394d/LICENSE">MIT</a>.</p>
